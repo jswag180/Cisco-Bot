@@ -10,6 +10,22 @@ namespace CiscoBot
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Starting Cisco Bot");
+            discord dis = new discord();
+            while(true)
+            {
+                switch (Console.ReadLine())
+                {
+                    case "purge":
+                        dis.purge();
+                        break;
+
+                    default:
+                        Console.WriteLine("Command not found!");
+                        break;
+                }
+            }
+
         }
     }
 }
