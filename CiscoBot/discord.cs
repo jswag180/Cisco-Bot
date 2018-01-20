@@ -13,7 +13,7 @@ namespace CiscoBot
     {      
         public static String[] Admins;
         string appPath = System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
-        private string Token = "";//MzcyNTA5NTgyNDAyMjU2ODk2.DPJ3Bg.SVTrHSUzEQIBgCPS2wB-kXha61I
+        private string Token = "";
         public DiscordSocketClient Client;
         public DiscordSocketConfig conf;
 
