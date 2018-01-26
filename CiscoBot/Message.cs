@@ -29,7 +29,7 @@ namespace CiscoBot
         {
 
             var builder = new EmbedBuilder()
-            .WithTitle("Cisco second year and first year fast track test guidelines.")
+            .WithTitle("Cisco Bot source code.")
             .WithUrl(uri.ToString())
             .WithDescription(urlText)
             .WithColor(clr)
@@ -47,5 +47,10 @@ namespace CiscoBot
         {
             await chn.SendMessageAsync("", embed: embeded);
         }
+
+        public async Task Send(IUser user)
+        {
+            await user.SendMessageAsync("", embed: embeded);
+        } 
     }
 }

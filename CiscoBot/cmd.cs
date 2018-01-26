@@ -44,8 +44,8 @@ namespace CiscoBot
                 case "about":
                     return "Brought to you by the memers!" + " " + Faces.horny;
 
-                case "tests":
-                    return "tests";
+                case "git":
+                    return "git";
 
                 default:
 
@@ -74,8 +74,8 @@ namespace CiscoBot
                 case "ff":
 
                     return Faces.pissed + " Put it in the right channel. " + Faces.angry;
-                case "tests":
-                    return "tests";
+                case "git":
+                    return "git";
 
                 default:
 
